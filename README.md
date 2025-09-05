@@ -37,9 +37,9 @@ features_with_interactions.csv — interaction features used in the baseline bum
 Data quality callout: Issue_Resolved is missing for 70,171 rows and is explicitly imputed/fixed in modeling notebooks.
 
 🗂️ Repository Structure
-/data/                         # all ready-to-use feature tables & labels
-/models/                       # saved preprocessors & trained models (.pkl)
-/notebooks/                    # step-by-step project notebooks
+<pre> ```bash /data/ # all ready-to-use feature tables & labels /models/ # saved preprocessors & trained models (.pkl) /notebooks/ # step-by-step project notebooks ``` </pre>
+
+
 Model artifacts:
 
 models/preprocessor_composites_normalized.pkl
